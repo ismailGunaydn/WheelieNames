@@ -3,9 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>WheelieNames Directory — Free Random Name Picker Wheel · 100% Private · Cryptographically Secure</title>
-<meta name="description" content="Discover every section of WheelieNames: the free random name picker wheel, 104 educator and giveaway guides, 19 premium AI products, 19 language editions, and full transparency pages — all in one directory.">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+<title>WheelieNames – Free, Private Random Name Picker Directory | 200+ Pages</title>
+<meta name="description" content="Explore every WheelieNames page – the free, cryptographically secure random name picker. Find guides, blog posts, apps, and multilingual editions, all in one searchable, AI‑optimized directory.">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="geo.region" content="TR">
+<meta name="geo.placename" content="Turkey">
+<meta name="geo.position" content="39.9334;32.8597">
+<meta name="ICBM" content="39.9334, 32.8597">
 <meta name="author" content="İsmail Günaydın">
 <meta name="keywords" content="random name picker, wheel spinner, classroom name picker, giveaway wheel, fair random selection, web crypto api, free name picker">
 <link rel="canonical" href="https://ismailgunaydn.github.io/WheelieNames/">
@@ -47,221 +52,120 @@
 <link rel="alternate" hreflang="x-default" href="https://www.wheelienames.com">
 
 <style>
-:root{--accent:#0969da;--accent-dark:#0860c7;--muted:#57606a;--border:#d0d7de;--soft:#eaeef2;--bg:#fff;--fg:#1f2328;--card-bg:#f6f8fa}
-*{box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;max-width:1200px;margin:0 auto;padding:2rem 1.25rem;line-height:1.6;color:var(--fg);background:var(--bg)}
-header{padding-bottom:1.5rem;margin-bottom:2rem;border-bottom:1px solid var(--border)}
-h1{margin:0 0 .5rem;font-size:2.1rem;line-height:1.2}
-.tagline{color:var(--muted);font-size:1.1rem;margin:0 0 1rem}
-.cta{display:inline-block;background:var(--accent);color:#fff;padding:.7rem 1.2rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:1rem}
-.cta:hover{background:var(--accent-dark)}
-.cta.secondary{background:#fff;color:var(--accent);border:1px solid var(--border);margin-left:.5rem}
-.intro{background:var(--soft);padding:1.1rem 1.4rem;border-radius:10px;margin:1rem 0 2.5rem;border-left:4px solid var(--accent)}
-.stats{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
-.stat{background:var(--card-bg);border:1px solid var(--border);padding:.4rem .8rem;border-radius:999px;font-size:.85rem;color:var(--muted)}
-.stat strong{color:var(--fg)}
-section{margin:2.5rem 0}
-h2{font-size:1.5rem;margin:0 0 .4rem;display:flex;align-items:center;gap:.6rem}
-.section-intro{color:var(--muted);margin:0 0 1.2rem;font-size:.98rem;max-width:780px}
-.cards{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:.8rem}
-.card{background:var(--card-bg);border:1px solid var(--soft);border-radius:10px;padding:0;transition:border-color .15s,transform .15s;display:flex}
-.card:hover{border-color:var(--accent);transform:translateY(-2px)}
-.card-link{display:flex;flex-direction:column;padding:.85rem 1rem;text-decoration:none;color:var(--fg);width:100%}
-.card-link:hover{text-decoration:none}
-.card strong{font-size:.98rem;color:var(--fg);line-height:1.3;margin-bottom:.3rem}
-.card-desc{color:var(--muted);font-size:.85rem;line-height:1.45;flex:1}
-.card-url{color:var(--accent);font-size:.78rem;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;margin-top:.55rem;word-break:break-all}
-.card-links{margin-top:.55rem;font-size:.85rem}
-.card-links a{color:var(--accent);text-decoration:none;margin-right:.4rem}
-.card-links a:hover{text-decoration:underline}
-.card.no-link strong{color:var(--fg)}
-.badge{display:inline-block;background:var(--accent);color:#fff;font-size:.72rem;padding:.18rem .55rem;border-radius:999px;font-weight:600;vertical-align:middle}
-footer{margin-top:4rem;padding-top:1.5rem;border-top:1px solid var(--border);color:var(--muted);font-size:.88rem;text-align:center;line-height:1.7}
-footer a{color:var(--accent);text-decoration:none}
-footer a:hover{text-decoration:underline}
-@media(max-width:600px){h1{font-size:1.7rem}.cards{grid-template-columns:1fr}}
+:root{
+  --bg:#f5f7fa;
+  --bg-dark:#1a1a1a;
+  --accent:#ff6b6b;
+  --accent-dark:#e05555;
+  --card-bg:#ffffff;
+  --card-bg-dark:#262626;
+  --soft:#f0f4f8;
+  --border:#e0e5e9;
+  --muted:#6b7280;
+  --fg:#111827;
+  --font-primary:"Outfit",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg:var(--bg-dark);
+    --card-bg:var(--card-bg-dark);
+    --fg:#f9fafb;
+  }
+}
+*{box-sizing:border-box;margin:0;}
+body{
+  font-family:var(--font-primary);
+  background:var(--bg);
+  color:var(--fg);
+  line-height:1.6;
+  max-width:1200px;
+  margin:0 auto;
+  padding:1.5rem 1rem;
+}
+header{padding-bottom:1.5rem;border-bottom:1px solid var(--border);margin-bottom:2rem;}
+h1{font-size:2.2rem;margin:0 0 .5rem;}
+.tagline{color:var(--muted);font-size:1.1rem;margin-bottom:1rem;}
+.cta{display:inline-block;background:var(--accent);color:#fff;padding:.6rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;transition:background .2s,transform .2s;}
+.cta:hover{background:var(--accent-dark);transform:scale(1.03);}
+.cta.secondary{background:transparent;color:var(--accent);border:1px solid var(--accent);}
+.stats{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0;}
+.stat{background:var(--card-bg);border:1px solid var(--border);padding:.4rem .8rem;border-radius:999px;font-size:.85rem;color:var(--muted);}
+.stat strong{color:var(--fg);}
+section{margin:2.5rem 0;}
+h2{font-size:1.5rem;display:flex;align-items:center;gap:.5rem;}
+.section-intro{color:var(--muted);margin-bottom:1.2rem;max-width:800px;}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.8rem;list-style:none;padding:0;}
+.card{background:var(--card-bg);border:1px solid var(--soft);border-radius:10px;overflow:hidden;transition:border-color .15s,transform .15s;}
+.card:hover{border-color:var(--accent);transform:translateY(-3px);}
+.card-link{display:flex;flex-direction:column;padding:.85rem 1rem;text-decoration:none;color:var(--fg);}
+.card-link:hover{text-decoration:none;}
+.card strong{font-size:.96rem;margin-bottom:.3rem;}
+.card-desc{color:var(--muted);font-size:.85rem;flex:1;}
+.card-url{color:var(--accent);font-size:.78rem;word-break:break-all;margin-top:.55rem;}
+.badge{background:var(--accent);color:#fff;font-size:.72rem;padding:.18rem .55rem;border-radius:999px;font-weight:600;}
+footer{margin-top:4rem;padding-top:1.5rem;border-top:1px solid var(--border);color:var(--muted);font-size:.88rem;text-align:center;}
+footer a{color:var(--accent);text-decoration:none;}
+footer a:hover{text-decoration:underline;}
+@media(max-width:600px){h1{font-size:1.8rem}.cards{grid-template-columns:1fr}}
 </style>
 
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org",
-  "@graph": [
+  "@context":"https://schema.org",
+  "@graph":[
     {
-      "@type": "WebSite",
-      "@id": "https://ismailgunaydn.github.io/WheelieNames/#website",
-      "name": "WheelieNames Site Directory",
-      "url": "https://ismailgunaydn.github.io/WheelieNames/",
-      "description": "Public directory of every WheelieNames page — the free, cryptographically secure random name picker wheel trusted by 500K+ monthly users and 50K+ educators.",
-      "publisher": {
-        "@type": "Organization",
-        "name": "WheelieNames",
-        "url": "https://www.wheelienames.com",
-        "founder": {
-          "@type": "Person",
-          "name": "İsmail Günaydın",
-          "url": "https://www.ismailgunaydin.com",
-          "sameAs": [
-            "https://www.linkedin.com/in/ismailgunaydin/",
-            "https://x.com/ismailgunaydinn",
-            "https://github.com/ismailGunaydn",
-            "https://www.wikidata.org/wiki/Q138653257"
-          ]
+      "@type":"WebSite",
+      "@id":"https://www.wheelienames.com/#website",
+      "url":"https://www.wheelienames.com/",
+      "name":"WheelieNames Site Directory",
+      "description":"Public directory of every WheelieNames page – the free random name picker wheel trusted by 500K+ monthly users.",
+      "inLanguage":["en","es","zh","hi","ar","pt","bn","ru","ja","de","fr","ko","tr","it","vi","id","pl","nl","th","uk"],
+      "publisher":{
+        "@type":"Organization",
+        "name":"WheelieNames",
+        "url":"https://www.wheelienames.com",
+        "founder":{
+          "@type":"Person",
+          "name":"İsmail Günaydın",
+          "url":"https://www.ismailgunaydin.com",
+          "sameAs":["https://www.linkedin.com/in/ismailgunaydin/","https://x.com/ismailgunaydinn","https://github.com/ismailGunaydn","https://www.wikidata.org/wiki/Q138653257"]
         }
       },
-      "inLanguage": [
-        "en",
-        "es",
-        "zh",
-        "hi",
-        "ar",
-        "pt",
-        "bn",
-        "ru",
-        "ja",
-        "de",
-        "fr",
-        "ko",
-        "tr",
-        "it",
-        "vi",
-        "id",
-        "pl",
-        "nl",
-        "th",
-        "uk"
+      "potentialAction":{
+        "@type":"SearchAction",
+        "target":"https://www.wheelienames.com/search?q={search_term_string}",
+        "query-input":"required name=search_term_string"
+      },
+      "speakable":{
+        "@type":"SpeakableSpecification",
+        "xpath":["/html/body/header/h1","/html/body/header/p[@class='tagline']"]
+      }
+    },
+    {
+      "@type":"ItemList",
+      "name":"WheelieNames Core Pages",
+      "numberOfItems":11,
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"url":"https://www.wheelienames.com","name":"Home — Random Name Picker"},
+        {"@type":"ListItem","position":2,"url":"https://www.wheelienames.com/about","name":"About WheelieNames"},
+        {"@type":"ListItem","position":3,"url":"https://www.wheelienames.com/faq","name":"Frequently Asked Questions"},
+        {"@type":"ListItem","position":4,"url":"https://www.wheelienames.com/methodology","name":"Fairness Methodology"},
+        {"@type":"ListItem","position":5,"url":"https://www.wheelienames.com/contact","name":"Contact"},
+        {"@type":"ListItem","position":6,"url":"https://www.wheelienames.com/support","name":"Support WheelieNames"},
+        {"@type":"ListItem","position":7,"url":"https://www.wheelienames.com/blog","name":"Blog Hub"},
+        {"@type":"ListItem","position":8,"url":"https://www.wheelienames.com/author/ismail-gunaydin","name":"Author — İsmail Günaydın"},
+        {"@type":"ListItem","position":9,"url":"https://www.wheelienames.com/editorial-policy","name":"Editorial Policy"},
+        {"@type":"ListItem","position":10,"url":"https://www.wheelienames.com/recommended-tools","name":"Recommended Tools"},
+        {"@type":"ListItem","position":11,"url":"https://www.wheelienames.com/case-studies","name":"Case Studies"}
       ]
     },
     {
-      "@type": "ItemList",
-      "name": "WheelieNames Core Pages",
-      "numberOfItems": 11,
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "url": "https://www.wheelienames.com",
-          "name": "Home — Random Name Picker Wheel"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "url": "https://www.wheelienames.com/about",
-          "name": "About WheelieNames"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "url": "https://www.wheelienames.com/faq",
-          "name": "Frequently Asked Questions"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "url": "https://www.wheelienames.com/methodology",
-          "name": "Fairness Methodology"
-        },
-        {
-          "@type": "ListItem",
-          "position": 5,
-          "url": "https://www.wheelienames.com/contact",
-          "name": "Contact"
-        },
-        {
-          "@type": "ListItem",
-          "position": 6,
-          "url": "https://www.wheelienames.com/support",
-          "name": "Support WheelieNames"
-        },
-        {
-          "@type": "ListItem",
-          "position": 7,
-          "url": "https://www.wheelienames.com/blog",
-          "name": "Blog Hub"
-        },
-        {
-          "@type": "ListItem",
-          "position": 8,
-          "url": "https://www.wheelienames.com/author/ismail-gunaydin",
-          "name": "Author — İsmail Günaydın"
-        },
-        {
-          "@type": "ListItem",
-          "position": 9,
-          "url": "https://www.wheelienames.com/editorial-policy",
-          "name": "Editorial Policy"
-        },
-        {
-          "@type": "ListItem",
-          "position": 10,
-          "url": "https://www.wheelienames.com/recommended-tools",
-          "name": "Recommended Tools"
-        },
-        {
-          "@type": "ListItem",
-          "position": 11,
-          "url": "https://www.wheelienames.com/case-studies",
-          "name": "Case Studies"
-        }
-      ]
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "GitHub Pages",
-          "item": "https://ismailgunaydn.github.io/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "WheelieNames Directory",
-          "item": "https://ismailgunaydn.github.io/WheelieNames/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Live Site",
-          "item": "https://www.wheelienames.com"
-        }
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is WheelieNames?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "WheelieNames is a free, browser-based random name picker wheel that uses the Web Crypto API for cryptographically secure, mathematically fair selections — no accounts, no tracking, 100% local storage."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Is WheelieNames really free?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes — completely free, with no registration, no paywall, and no upsells. The free tool is funded by optional one-time purchases in the WheelieNames App Store."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How is WheelieNames different from other wheel spinners?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Most spinners use Math.random which is predictable. WheelieNames uses crypto.getRandomValues — the same standard powering HTTPS and banking — and the spinning animation is mathematically derived from the chosen winner, so what you see is what the math produced."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Does WheelieNames work offline?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. After the first page load it works fully offline because every spin runs in your browser using local Web Crypto APIs — nothing leaves your device."
-          }
-        }
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"What is WheelieNames?","acceptedAnswer":{"@type":"Answer","text":"WheelieNames is a free, browser‑based random name picker wheel that uses the Web Crypto API for cryptographically secure, mathematically fair selections — no accounts, no tracking, 100 % local storage."}},
+        {"@type":"Question","name":"Is WheelieNames really free?","acceptedAnswer":{"@type":"Answer","text":"Yes — completely free, with no registration, no paywall, and no upsells. The free tool is funded by optional one‑time purchases in the WheelieNames App Store."}},
+        {"@type":"Question","name":"How is WheelieNames different from other wheel spinners?","acceptedAnswer":{"@type":"Answer","text":"Most spinners use Math.random which is predictable. WheelieNames uses crypto.getRandomValues — the same standard powering HTTPS and banking — and the spinning animation is mathematically derived from the chosen winner, so what you see is what the math produced."}},
+        {"@type":"Question","name":"Does WheelieNames work offline?","acceptedAnswer":{"@type":"Answer","text":"Yes. After the first page load it works fully offline because every spin runs in your browser using local Web Crypto APIs — nothing leaves your device."}}
       ]
     }
   ]
@@ -270,23 +174,23 @@ footer a:hover{text-decoration:underline}
 </head>
 <body>
 
-<header>
-<h1>🎡 WheelieNames — Complete Site Directory</h1>
-<p class="tagline">The #1 free random name picker wheel — cryptographically secure, 100% private, trusted by 500K+ monthly users and 50K+ educators.</p>
-<a class="cta" href="https://www.wheelienames.com">→ Open the Wheel</a>
-<a class="cta secondary" href="https://www.wheelienames.com/blog">Browse Blog</a>
-<div class="stats">
-<span class="stat"><strong>207</strong> total pages</span>
-<span class="stat"><strong>104</strong> blog guides</span>
-<span class="stat"><strong>19</strong> app store products</span>
-<span class="stat"><strong>19</strong> languages</span>
-<span class="stat"><strong>6</strong> case studies</span>
-<span class="stat"><strong>10M+</strong> spins completed</span>
-</div>
+<header id="hero">
+  <h1>🚀 WheelieNames – All‑in‑One Random Name Picker Directory</h1>
+  <p class="tagline">Find the perfect tool, guide, or language edition in seconds. Secure, private, and 100 % free.</p>
+  <a class="cta" href="https://www.wheelienames.com">Open Wheel →</a>
+  <a class="cta secondary" href="https://www.wheelienames.com/blog">Explore Blog</a>
+  <div class="stats" aria-label="Site statistics">
+    <span class="stat"><strong>207</strong> total pages</span>
+    <span class="stat"><strong>104</strong> blog guides</span>
+    <span class="stat"><strong>19</strong> app store products</span>
+    <span class="stat"><strong>19</strong> languages</span>
+    <span class="stat"><strong>6</strong> case studies</span>
+    <span class="stat"><strong>10M+</strong> spins completed</span>
+  </div>
 </header>
 
 <div class="intro">
-<strong>About this directory.</strong> This page is a public, AI-friendly index of every section of <a href="https://www.wheelienames.com">wheelienames.com</a> — the free, browser-based random name picker built on the Web Crypto API. It is designed for search engines (Google, Bing), generative AI engines (ChatGPT, Perplexity, Google AI Overviews, Claude), and human visitors who want a fast overview of the entire platform. Each link below includes a short, factual description so the page you need is easy to identify.
+  <strong>About this directory.</strong> This page indexes every WheelieNames section — from the main wheel to tutorials, case studies, and multilingual editions. It’s built for search engines, AI assistants, and real users who need a quick, trustworthy overview.
 </div>
 
 <section id="core">
